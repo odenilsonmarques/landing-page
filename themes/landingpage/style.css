@@ -1,0 +1,140 @@
+/*
+Theme Name: LandingPage
+Theme URI: https://example.com
+Author: odenilson
+Author URI: https://example.com
+Description: Tema de landing page com formulario de captura.
+Version: 1.0.0
+Requires at least: 6.0
+Tested up to: 6.7
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: landingpage
+*/
+
+
+.home-hero {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 680px;
+    padding: 80px 0;
+
+    background-image:
+        linear-gradient(90deg,
+            rgba(2, 24, 67, 0.98) 0%,
+            rgba(3, 35, 76, 0.90) 38%,
+            rgba(3, 35, 76, 0.45) 70%,
+            rgba(3, 35, 76, 0.15) 100%),
+        url("./assets/images/hero-bg-nova.webp");
+
+    background-position: center 15%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    color: #fff;
+}
+
+.home-hero-content {
+    max-width: 430px;
+}
+
+.home-hero-logo {
+    display: block;
+    width: 135px;
+    max-height: 65px;
+    object-fit: contain;
+    object-position: left center;
+    margin-bottom: 20px;
+}
+
+.home-hero-title {
+    margin-bottom: 18px;
+    font-size: clamp(2.2rem, 3.2vw, 3rem);
+    font-weight: 700;
+    line-height: 1.08;
+    letter-spacing: -1.5px;
+}
+
+.home-hero-title span {
+    display: block;
+    color: #00e8ce;
+}
+
+.home-hero-subtitle {
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.home-hero-benefits {
+    padding: 0;
+    margin: 0 0 20px;
+    list-style: none;
+}
+
+.home-hero-benefits li {
+    position: relative;
+    padding-left: 24px;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+}
+
+.home-hero-benefits li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #00e8ce;
+}
+
+.home-hero-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+
+    min-height: 56px;
+    padding: 0 38px;
+    border-radius: 50px;
+
+    background-color: #00e8ce;
+    color: #001b35;
+    font-weight: 600;
+    text-decoration: none;
+
+    transition: background-color 0.2s ease;
+}
+
+.home-hero-button:hover {
+    background-color: #fff;
+    color: #001b35;
+}
+
+
+@media (max-width: 767.98px) {
+    .home-hero {
+        min-height: 620px;
+        padding: 60px 0;
+
+        background-position: 65% center;
+
+        background-image:
+            linear-gradient(90deg,
+                rgba(2, 24, 67, 0.96),
+                rgba(2, 24, 67, 0.76)),
+            url("../images/hero-banner.jpg");
+    }
+
+    .home-hero-content {
+        max-width: 100%;
+    }
+
+    .home-hero-title {
+        font-size: clamp(2rem, 8vw, 2.7rem);
+    }
+
+    .home-hero-button {
+        padding: 0 28px;
+    }
+}
