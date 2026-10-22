@@ -24,6 +24,9 @@ function landingpage_scripts()
 
 	// Bootstrap JS.
 	wp_enqueue_script('bootstrap-js', get_template_directory_uri() . '/assets/js/bootstrap.bundle.min.js', array(), '5.3.3', true);
+
+	//JS.
+	wp_enqueue_script('writing-text-js', get_template_directory_uri() . '/assets/js/writing-text.js', array(), '5.3.3', true);
 }
 add_action('wp_enqueue_scripts', 'landingpage_scripts');
 

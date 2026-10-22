@@ -16,9 +16,7 @@ Text Domain: landingpage
 
 .home-hero {
     position: relative;
-    display: flex;
-    align-items: center;
-    min-height: 680px;
+    min-height: 970px;
     padding: 80px 0;
 
     background-image:
@@ -29,54 +27,47 @@ Text Domain: landingpage
             rgba(3, 35, 76, 0.15) 100%),
         url("./assets/images/hero-bg-nova.webp");
 
-    background-position: center 15%;
+    background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
 
-    color: #fff;
 }
 
 .home-hero-content {
     max-width: 430px;
+    /* border: 1px solid red; */
+    padding-left: 30px;
 }
 
 .home-hero-logo {
-    display: block;
-    width: 135px;
+    width: 180px;
     max-height: 65px;
-    object-fit: contain;
     object-position: left center;
     margin-bottom: 20px;
 }
 
 .home-hero-title {
     margin-bottom: 18px;
-    font-size: clamp(2.2rem, 3.2vw, 3rem);
-    font-weight: 700;
-    line-height: 1.08;
+    font-size: clamp(3.2rem, 3.2vw, 3rem);
+    /* line-height: 1.08; */
     letter-spacing: -1.5px;
 }
 
 .home-hero-title span {
-    display: block;
     color: #00e8ce;
 }
 
 .home-hero-subtitle {
     margin-bottom: 20px;
     font-size: 1.4rem;
-    font-weight: 600;
 }
 
 .home-hero-benefits {
-    padding: 0;
     margin: 0 0 20px;
-    list-style: none;
 }
 
 .home-hero-benefits li {
     position: relative;
-    padding-left: 24px;
     margin-bottom: 5px;
     font-size: 0.9rem;
 }
@@ -89,26 +80,30 @@ Text Domain: landingpage
 }
 
 .home-hero-button {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
     gap: 12px;
-
     min-height: 56px;
     padding: 0 38px;
-    border-radius: 50px;
-
     background-color: #00e8ce;
     color: #001b35;
-    font-weight: 600;
-    text-decoration: none;
-
     transition: background-color 0.2s ease;
 }
 
 .home-hero-button:hover {
     background-color: #fff;
     color: #001b35;
+}
+
+
+.typing-cursor {
+    display: inline-block;
+    margin-left: 3px;
+    animation: typing-blink 0.7s infinite;
+}
+
+@keyframes typing-blink {
+    50% {
+        opacity: 0;
+    }
 }
 
 

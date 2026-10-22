@@ -1,1 +1,1 @@
-na proxima abordagem, continuar tratando a imagem e os textos da hero. Atenção: tentar utilizar o maximo de classes nativas do bootstrap, pois foi utilizado muito css.
+na proxima abordagem, ir para a sessao 2 da lading page
