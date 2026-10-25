@@ -1,1 +1,1 @@
-na proxima abordagem, ir para a sessao 2 da lading page
+na proxima abordagem, ir para a sessao 2 da lading page (lembrar de criar uma branch) e sempre que estive rna man da um pull

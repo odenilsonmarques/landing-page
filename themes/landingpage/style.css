@@ -16,7 +16,7 @@ Text Domain: landingpage
 
 .home-hero {
     position: relative;
-    min-height: 970px;
+    min-height: 670px;
     padding: 80px 0;
 
     background-image:
@@ -36,7 +36,7 @@ Text Domain: landingpage
 .home-hero-content {
     max-width: 430px;
     /* border: 1px solid red; */
-    padding-left: 30px;
+    /* padding-left: 30px; */
 }
 
 .home-hero-logo {
