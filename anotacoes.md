@@ -1,1 +1,3 @@
-na proxima abordagem, ir para a sessao 2 da lading page
+na proxima abordagem, analisar a possibilidade de refatorar o plugin, pois tem muitp código em um memso arquivo, por exemplo as mensagens de validação no arquivo principla entre outros...
+
+Alem disso, analisar a possibilidade de mascara os campo de telefone no formulário
